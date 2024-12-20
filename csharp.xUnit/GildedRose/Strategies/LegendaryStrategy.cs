@@ -11,9 +11,5 @@ internal class LegendaryStrategy : IItemStrategy
         {
             item.Quality++;
         }
-
-        //var sellInFactor = item.SellIn < 0 && item.Quality < 50 ? 1 : 0;
-
-        //item.Quality = Math.Max(50, item.Quality + sellInFactor);
     }
 }
